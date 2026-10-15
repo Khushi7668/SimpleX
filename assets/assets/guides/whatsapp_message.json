@@ -1,0 +1,42 @@
+{
+  "id": "whatsapp_message",
+  "version": 1,
+  "icon": "chat",
+  "title": { "hi": "व्हाट्सएप पर मैसेज", "en": "WhatsApp message" },
+  "steps": [
+    {
+      "icon": "chat",
+      "say": {
+        "hi": "हरे रंग का व्हाट्सएप खोलिये। उसमें सफ़ेद फ़ोन का निशान होता है। चाहें तो नीचे वाला बटन दबाइये।",
+        "en": "Open the green WhatsApp app, it has a white phone inside. Or tap the button below."
+      },
+      "caption": { "hi": "व्हाट्सएप खोलिये", "en": "Open WhatsApp" },
+      "deeplink": "whatsapp://"
+    },
+    {
+      "icon": "person",
+      "say": {
+        "hi": "जिनसे बात करनी है, उनका नाम ढूँढिये, और उस पर दबाइये।",
+        "en": "Find the name of the person and tap it."
+      },
+      "caption": { "hi": "नाम पर दबाइये", "en": "Tap the person's name" }
+    },
+    {
+      "icon": "mic",
+      "say": {
+        "hi": "आवाज़ भेजनी है, तो नीचे दाईं तरफ़ माइक वाला बटन दबाकर रखिये, बोलिये, और फिर उँगली छोड़ दीजिये। आवाज़ चली जाएगी।",
+        "en": "To send your voice, press and hold the mic at the bottom right, speak, then let go."
+      },
+      "caption": { "hi": "माइक दबाकर रखिये, बोलिये, छोड़िये", "en": "Hold mic, speak, let go" }
+    },
+    {
+      "icon": "send",
+      "say": {
+        "hi": "लिखकर भेजना हो, तो नीचे लिखने की जगह दबाइये, लिखिये, और तीर वाला बटन दबाइये।",
+        "en": "To type instead, tap the box at the bottom, type, and press the arrow."
+      },
+      "caption": { "hi": "या लिखकर तीर दबाइये", "en": "Or type and press the arrow" },
+      "verify": "ask"
+    }
+  ]
+}

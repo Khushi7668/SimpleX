@@ -1,0 +1,41 @@
+{
+  "id": "fix_internet",
+  "version": 1,
+  "icon": "wifi",
+  "title": { "hi": "इंटरनेट नहीं चल रहा", "en": "Internet not working" },
+  "steps": [
+    {
+      "icon": "swipe_down",
+      "say": {
+        "hi": "स्क्रीन के सबसे ऊपर से उँगली नीचे की तरफ़ खींचिये। छोटे छोटे गोल या चौकोर बटन दिखेंगे।",
+        "en": "Swipe down from the very top of the screen. You will see small round or square buttons."
+      },
+      "caption": { "hi": "ऊपर से नीचे उँगली खींचिये", "en": "Swipe down from the top" }
+    },
+    {
+      "icon": "airplanemode_active",
+      "say": {
+        "hi": "अगर हवाई जहाज़ वाला बटन रंगीन है, तो उसे दबाकर बंद कर दीजिये।",
+        "en": "If the airplane button is coloured, tap it to turn it off."
+      },
+      "caption": { "hi": "हवाई जहाज़ वाला बटन बंद करें", "en": "Turn off airplane mode" }
+    },
+    {
+      "icon": "swap_vert",
+      "say": {
+        "hi": "अब मोबाइल डेटा वाला बटन देखिये, उस पर ऊपर नीचे वाले दो तीर होते हैं। वो रंगीन नहीं है, तो उसे दबाइये।",
+        "en": "Now find Mobile data, it has up and down arrows. If it is not coloured, tap it."
+      },
+      "caption": { "hi": "मोबाइल डेटा चालू करें", "en": "Turn on mobile data" }
+    },
+    {
+      "icon": "wifi",
+      "say": {
+        "hi": "घर में वाईफ़ाई है, तो पंखे जैसे निशान वाला वाईफ़ाई बटन भी दबाकर चालू कर दीजिये।",
+        "en": "If you have Wi-Fi at home, tap the fan-shaped Wi-Fi button to turn it on too."
+      },
+      "caption": { "hi": "वाईफ़ाई चालू करें", "en": "Turn on Wi-Fi" },
+      "verify": "ask"
+    }
+  ]
+}

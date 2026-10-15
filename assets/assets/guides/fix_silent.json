@@ -1,0 +1,33 @@
+{
+  "id": "fix_silent",
+  "version": 1,
+  "icon": "volume_up",
+  "title": { "hi": "फ़ोन की आवाज़ नहीं आ रही", "en": "Phone is silent" },
+  "steps": [
+    {
+      "icon": "volume_up",
+      "say": {
+        "hi": "फ़ोन के किनारे पर ऊपर वाला बटन, यानी आवाज़ बढ़ाने वाला बटन, चार पाँच बार दबाइये।",
+        "en": "Press the upper button on the side of the phone, the volume up button, four or five times."
+      },
+      "caption": { "hi": "किनारे का ऊपर वाला बटन दबाइये", "en": "Press volume up" }
+    },
+    {
+      "icon": "notifications_off",
+      "say": {
+        "hi": "अगर स्क्रीन पर घंटी पर लकीर, या चाँद का निशान दिखे, तो फ़ोन चुप वाले मोड पर है। उस निशान को दबाकर बंद कर दीजिये।",
+        "en": "If you see a bell with a line or a moon icon, the phone is on silent or Do Not Disturb. Tap it to turn it off."
+      },
+      "caption": { "hi": "घंटी पर लकीर या चाँद? दबाइये", "en": "Bell with line or moon? Tap it" }
+    },
+    {
+      "icon": "swipe_down",
+      "say": {
+        "hi": "वो निशान ढूँढने के लिए, स्क्रीन के सबसे ऊपर से उँगली नीचे की तरफ़ खींचिये।",
+        "en": "To find it, swipe down from the very top of the screen."
+      },
+      "caption": { "hi": "ऊपर से नीचे उँगली खींचिये", "en": "Swipe down from the top" },
+      "verify": "ask"
+    }
+  ]
+}

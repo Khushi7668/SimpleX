@@ -1,0 +1,42 @@
+{
+  "id": "call",
+  "version": 1,
+  "icon": "phone",
+  "title": { "hi": "फ़ोन कैसे लगाएँ", "en": "Make a phone call" },
+  "steps": [
+    {
+      "icon": "phone",
+      "say": {
+        "hi": "फ़ोन पर हरे रंग का फ़ोन वाला निशान ढूँढिये, और उसे दबाइये। चाहें तो नीचे वाला बटन दबाइये, मैं ख़ुद खोल देती हूँ।",
+        "en": "Find the green phone icon and tap it. Or tap the button below and I will open it for you."
+      },
+      "caption": { "hi": "हरा फ़ोन वाला निशान दबाइये", "en": "Tap the green phone icon" },
+      "deeplink": "tel:"
+    },
+    {
+      "icon": "contacts",
+      "say": {
+        "hi": "अब ऊपर संपर्क, या कॉन्टैक्ट्स दबाइये। जिससे बात करनी है, उनका नाम या फ़ोटो दबाइये।",
+        "en": "Now tap Contacts at the top, then tap the name or photo of the person you want to call."
+      },
+      "caption": { "hi": "जिसे फ़ोन करना है, उनका नाम दबाइये", "en": "Tap the person's name" }
+    },
+    {
+      "icon": "call",
+      "say": {
+        "hi": "अब हरा बटन दबाइये। घंटी जाएगी। जब सामने वाले उठाएँ, तो फ़ोन कान पर लगाकर बात कीजिये।",
+        "en": "Now press the green button. It will ring. When they pick up, hold the phone to your ear and talk."
+      },
+      "caption": { "hi": "हरा बटन दबाइये", "en": "Press the green button" }
+    },
+    {
+      "icon": "call_end",
+      "say": {
+        "hi": "बात ख़त्म हो जाए, तो लाल बटन दबा दीजिये। फ़ोन कट जाएगा।",
+        "en": "When you are done talking, press the red button to end the call."
+      },
+      "caption": { "hi": "बात ख़त्म होने पर लाल बटन", "en": "Red button to end" },
+      "verify": "ask"
+    }
+  ]
+}

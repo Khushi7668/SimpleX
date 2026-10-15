@@ -1,0 +1,49 @@
+{
+  "id": "photo_send",
+  "version": 1,
+  "icon": "photo_camera",
+  "title": { "hi": "फ़ोटो खींचकर भेजें", "en": "Take and send a photo" },
+  "steps": [
+    {
+      "icon": "photo_camera",
+      "say": {
+        "hi": "कैमरा वाला ऐप खोलिये। उसका निशान कैमरे जैसा होता है।",
+        "en": "Open the Camera app. Its icon looks like a camera."
+      },
+      "caption": { "hi": "कैमरा खोलिये", "en": "Open Camera" }
+    },
+    {
+      "icon": "pan_tool",
+      "say": {
+        "hi": "फ़ोन को दोनों हाथों से सीधा और स्थिर पकड़िये। जो खींचना है, वो स्क्रीन पर पूरा दिखना चाहिये।",
+        "en": "Hold the phone steady with both hands. Make sure what you want is fully on the screen."
+      },
+      "caption": { "hi": "फ़ोन स्थिर पकड़िये", "en": "Hold steady" }
+    },
+    {
+      "icon": "circle",
+      "say": {
+        "hi": "अब नीचे बीच में बड़ा सफ़ेद गोल बटन दबाइये। फ़ोटो खिंच जाएगी।",
+        "en": "Now press the big white round button at the bottom. The photo is taken."
+      },
+      "caption": { "hi": "सफ़ेद गोल बटन दबाइये", "en": "Press the white circle" }
+    },
+    {
+      "icon": "photo_library",
+      "say": {
+        "hi": "अब गैलरी, या फ़ोटोज़ खोलिये, और अभी वाली फ़ोटो दबाइये।",
+        "en": "Now open Gallery or Photos and tap the new photo."
+      },
+      "caption": { "hi": "गैलरी में फ़ोटो दबाइये", "en": "Open the photo in Gallery" }
+    },
+    {
+      "icon": "share",
+      "say": {
+        "hi": "शेयर वाला बटन दबाइये, फिर व्हाट्सएप चुनिये, नाम चुनिये, और भेज दीजिये।",
+        "en": "Tap Share, choose WhatsApp, choose the person, and send."
+      },
+      "caption": { "hi": "शेयर, फिर व्हाट्सएप", "en": "Share, then WhatsApp" },
+      "verify": "ask"
+    }
+  ]
+}

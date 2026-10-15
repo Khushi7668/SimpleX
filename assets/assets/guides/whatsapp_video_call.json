@@ -1,0 +1,50 @@
+{
+  "id": "whatsapp_video_call",
+  "version": 1,
+  "icon": "videocam",
+  "title": { "hi": "व्हाट्सएप वीडियो कॉल", "en": "WhatsApp video call" },
+  "steps": [
+    {
+      "icon": "chat",
+      "say": {
+        "hi": "हरे रंग का व्हाट्सएप खोलिये, फिर जिनसे बात करनी है, उनका नाम दबाइये।",
+        "en": "Open the green WhatsApp app and tap the person's name."
+      },
+      "caption": { "hi": "व्हाट्सएप खोलकर नाम दबाइये", "en": "Open WhatsApp, tap the name" },
+      "deeplink": "whatsapp://"
+    },
+    {
+      "icon": "videocam",
+      "say": {
+        "hi": "ऊपर दाईं तरफ़, कैमरे जैसा निशान दबाइये। वीडियो कॉल शुरू हो जाएगी।",
+        "en": "At the top right, tap the camera icon. The video call will start."
+      },
+      "caption": { "hi": "ऊपर कैमरे वाला निशान", "en": "Camera icon at the top" }
+    },
+    {
+      "icon": "cameraswitch",
+      "say": {
+        "hi": "सामने वाले को कुछ दिखाना है, तो घूमते तीरों वाला बटन दबाइये। पीछे वाला कैमरा चालू हो जाएगा।",
+        "en": "To show something, tap the button with turning arrows. The back camera turns on."
+      },
+      "caption": { "hi": "घूमते तीर: कैमरा बदलें", "en": "Turning arrows: switch camera" }
+    },
+    {
+      "icon": "mic_off",
+      "say": {
+        "hi": "अगर सामने वाले को आपकी आवाज़ नहीं आ रही, तो देखिये माइक पर लकीर तो नहीं है। हो तो माइक वाला बटन एक बार दबाइये।",
+        "en": "If they cannot hear you, check the mic button has no line through it. If it does, tap it once."
+      },
+      "caption": { "hi": "माइक पर लकीर हो तो दबाइये", "en": "Line on mic? Tap it" }
+    },
+    {
+      "icon": "call_end",
+      "say": {
+        "hi": "बात ख़त्म हो जाए, तो लाल बटन दबा दीजिये।",
+        "en": "When you are done, press the red button."
+      },
+      "caption": { "hi": "लाल बटन से कॉल बंद", "en": "Red button to end" },
+      "verify": "ask"
+    }
+  ]
+}

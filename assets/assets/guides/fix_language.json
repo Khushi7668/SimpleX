@@ -1,0 +1,33 @@
+{
+  "id": "fix_language",
+  "version": 1,
+  "icon": "translate",
+  "title": { "hi": "फ़ोन की भाषा बदल गई", "en": "Phone language changed" },
+  "steps": [
+    {
+      "icon": "settings",
+      "say": {
+        "hi": "सेटिंग्स खोलिये। उसका निशान दाँतों वाले पहिये जैसा होता है।",
+        "en": "Open Settings. Its icon looks like a gear wheel."
+      },
+      "caption": { "hi": "सेटिंग्स खोलिये", "en": "Open Settings" }
+    },
+    {
+      "icon": "search",
+      "say": {
+        "hi": "ऊपर ढूँढने वाली जगह दबाइये, और बोलकर या लिखकर, लैंग्वेज ढूँढिये।",
+        "en": "Tap the search box at the top and search for Language."
+      },
+      "caption": { "hi": "ऊपर Language ढूँढिये", "en": "Search for Language" }
+    },
+    {
+      "icon": "translate",
+      "say": {
+        "hi": "लैंग्वेज खोलिये, और लिस्ट में हिंदी चुनिये। फिर उसे सबसे ऊपर रखिये।",
+        "en": "Open Language, choose Hindi from the list, and move it to the top."
+      },
+      "caption": { "hi": "हिंदी चुनिये", "en": "Choose Hindi" },
+      "verify": "ask"
+    }
+  ]
+}

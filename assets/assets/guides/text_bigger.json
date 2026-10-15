@@ -1,0 +1,33 @@
+{
+  "id": "text_bigger",
+  "version": 1,
+  "icon": "text_fields",
+  "title": { "hi": "अक्षर बड़े करें", "en": "Make text bigger" },
+  "steps": [
+    {
+      "icon": "settings",
+      "say": {
+        "hi": "सेटिंग्स खोलिये। उसका निशान दाँतों वाले पहिये जैसा होता है।",
+        "en": "Open Settings. Its icon looks like a gear wheel."
+      },
+      "caption": { "hi": "सेटिंग्स खोलिये", "en": "Open Settings" }
+    },
+    {
+      "icon": "search",
+      "say": {
+        "hi": "ऊपर ढूँढने वाली जगह में, फ़ॉन्ट साइज़, या टेक्स्ट साइज़ ढूँढिये।",
+        "en": "In the search box at the top, search for Font size or Text size."
+      },
+      "caption": { "hi": "Font size ढूँढिये", "en": "Search for Font size" }
+    },
+    {
+      "icon": "text_fields",
+      "say": {
+        "hi": "वहाँ एक पट्टी दिखेगी। उस पर गोले को उँगली से सबसे दाईं तरफ़ खींच दीजिये। अक्षर बड़े हो जाएँगे।",
+        "en": "You will see a slider. Drag the dot all the way to the right. The text gets bigger."
+      },
+      "caption": { "hi": "गोले को दाईं तरफ़ खींचिये", "en": "Drag the dot to the right" },
+      "verify": "ask"
+    }
+  ]
+}

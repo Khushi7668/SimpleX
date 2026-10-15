@@ -1,0 +1,50 @@
+{
+  "id": "sms",
+  "version": 1,
+  "icon": "sms",
+  "title": { "hi": "मैसेज कैसे भेजें", "en": "Send a message" },
+  "steps": [
+    {
+      "icon": "sms",
+      "say": {
+        "hi": "मैसेज वाला ऐप खोलिये। उसका निशान बात करने वाले बुलबुले जैसा होता है। चाहें तो नीचे वाला बटन दबाइये।",
+        "en": "Open the Messages app. Its icon looks like a speech bubble. Or tap the button below."
+      },
+      "caption": { "hi": "मैसेज वाला ऐप खोलिये", "en": "Open Messages" },
+      "deeplink": "sms:"
+    },
+    {
+      "icon": "add",
+      "say": {
+        "hi": "नया मैसेज लिखने के लिए, प्लस या पेन वाला बटन दबाइये।",
+        "en": "To write a new message, tap the plus or pen button."
+      },
+      "caption": { "hi": "प्लस या पेन वाला बटन", "en": "Tap plus or pen" }
+    },
+    {
+      "icon": "person",
+      "say": {
+        "hi": "ऊपर, जिसे मैसेज भेजना है, उनका नाम लिखिये या चुनिये।",
+        "en": "At the top, type or choose the name of the person."
+      },
+      "caption": { "hi": "जिसे भेजना है, उनका नाम चुनिये", "en": "Choose the person" }
+    },
+    {
+      "icon": "mic",
+      "say": {
+        "hi": "अब नीचे लिखने की जगह दबाइये। कीबोर्ड पर माइक वाला बटन दबाकर बोल भी सकते हैं, जो बोलेंगे वो अपने आप लिख जाएगा।",
+        "en": "Now tap the box at the bottom. You can press the mic on the keyboard and speak, it will type for you."
+      },
+      "caption": { "hi": "बोलकर या लिखकर मैसेज बनाइये", "en": "Speak or type your message" }
+    },
+    {
+      "icon": "send",
+      "say": {
+        "hi": "आख़िर में, तीर वाला भेजने का बटन दबा दीजिये। मैसेज चला जाएगा।",
+        "en": "Finally, press the arrow send button. Your message is sent."
+      },
+      "caption": { "hi": "तीर वाला बटन दबाइये", "en": "Press the arrow to send" },
+      "verify": "ask"
+    }
+  ]
+}
